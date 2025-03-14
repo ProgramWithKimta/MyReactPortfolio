@@ -1,0 +1,11 @@
+to create an app
+in your terminal: npm create vite@latest
+give your project a name
+select react
+select javascript for this challenge
+note: a framework that extends a feature of a library is called a meta framework.
+eslint.config file is auto created when downloading vite. it is just a template to enforce certain syntax rules in your code, or set preset rules to your code, called out the plugins, etc
+app.css will load any time app.jsx will load
+main.jsx will load whenever index.css will load
+prefix with "use = hooks. adds in functionality to a dumb functions
+need to have one root element <></>. it can be empty just like that aka fragment or it can be tagged as main, div, section, form, whatever makes sense for you when it comes to styling
