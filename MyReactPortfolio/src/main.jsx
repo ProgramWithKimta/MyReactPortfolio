@@ -7,6 +7,7 @@ import Error from './pages/Error.jsx';
 import HomePage from './pages/Home.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
 
 
 
@@ -26,6 +27,10 @@ const router = createBrowserRouter([{
     {
       index: true,
       element: <Projects />,
+    },
+    {
+      index: true,
+      element: <Contact />,
     },
   ],
 },]);

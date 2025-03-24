@@ -40,6 +40,7 @@ import Header from "./components/Header";
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <Header />
       <AboutMe />
       <Projects />
+      <Contact />
       <Footer />
     </>
   );
