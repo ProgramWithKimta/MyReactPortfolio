@@ -4,11 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import App from './App.jsx';
 import Error from './pages/Error.jsx';
-import HomePage from './pages/Home.jsx';
-import AboutMe from './pages/AboutMe.jsx';
-import Projects from './pages/Projects.jsx';
-import Contact from './pages/Contact.jsx';
-
+import Home from './pages/Home.jsx';
 
 
 const router = createBrowserRouter([{
@@ -18,19 +14,7 @@ const router = createBrowserRouter([{
   children: [
     {
       index: true,
-      element: <HomePage />,
-    },
-    {
-      index: true,
-      element: <AboutMe />,
-    },
-    {
-      index: true,
-      element: <Projects />,
-    },
-    {
-      index: true,
-      element: <Contact />,
+      element: <Home />,
     },
   ],
 },]);
