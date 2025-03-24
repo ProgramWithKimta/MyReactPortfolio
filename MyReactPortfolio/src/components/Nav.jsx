@@ -1,5 +1,5 @@
-function NavBar() {
-    return <div>NavBar</div>
+function Projects() {
+    return <div>Projects</div>
 }
 
-export default NavBar;
+export default Projects;

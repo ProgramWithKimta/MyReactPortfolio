@@ -38,7 +38,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import NavBar from "./components/Nav";
+import Projects from './pages/Projects';
 import SearchBar from "./components/SearchBar";
 import AboutMe from "./pages/AboutMe";
 import ContactForm from './components/ContactForm';
@@ -47,7 +47,7 @@ function App() {
   return (
     <>
       <Header />
-      <NavBar />
+      <Projects />
       <ContactForm />
       <SearchBar />
       <Footer />
