@@ -1,5 +1,5 @@
 function AboutMe() {
-    return <div>So who is Kimta?</div>
+    return <div>About Me</div>
 }
 
 export default AboutMe;

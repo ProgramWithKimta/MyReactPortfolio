@@ -1,5 +1,5 @@
 function Header() {
-    return <div>Header</div>
+    return <div>Kimta's Portfolio</div>
 }
 
 export default Header;
