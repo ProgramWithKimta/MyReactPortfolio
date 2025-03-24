@@ -34,17 +34,21 @@
 
 // export default App
 
-
+import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/Nav";
 import SearchBar from "./components/SearchBar";
+import AboutMe from "./pages/AboutMe";
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
     <>
       <Header />
       <NavBar />
+      <ContactForm />
       <SearchBar />
       <Footer />
     </>
@@ -52,3 +56,24 @@ function App() {
 }
 
 export default App;
+
+// function App() {
+//   return (
+//     <Router>
+//       <div>
+//         <NavTabs />
+//         <div>
+//           <Routes>
+//             <Route path="/" element={<Home />} />
+//             <Route path="/resume" element={<Resume />} />
+//             <Route path="/portfolio" element={<Portfolio />} />
+//             <Route path="/contact" element={<Contact />} />
+//           </Routes>
+//         </div>
+//         <Footer />
+//       </div>
+//     </Router>
+//   );
+// }
+ 
+// export default App;
