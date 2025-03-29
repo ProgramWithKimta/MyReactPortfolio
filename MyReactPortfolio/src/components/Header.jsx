@@ -1,5 +1,7 @@
 function Header() {
-    return <div>Kimta's Portfolio</div>
+    return (
+    <header className="header">Kimta's Profile</header>
+    );
 }
 
 export default Header;
