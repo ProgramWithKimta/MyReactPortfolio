@@ -1,7 +1,9 @@
+import NavBar from "./NavBar";
+
 function Header() {
-    return (
-    <header className="header">Kimta's Profile</header>
-    );
+    return <div>
+        
+    </div>
 }
 
 export default Header;
