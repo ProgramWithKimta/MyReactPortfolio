@@ -1,9 +1,5 @@
-import NavBar from "./NavBar";
-
 function Header() {
-    return <div>
-        
-    </div>
-}
+    return <header>Panda's Portfolio</header>
+};
 
 export default Header;
