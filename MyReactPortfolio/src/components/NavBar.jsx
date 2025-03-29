@@ -5,7 +5,6 @@ function NavBar() {
     const [open, setOpen] = useState(false);
     return (
         <nav className="navbar">
-            <h1>Panda Portfolio</h1>
             <ul className={open? "nav-links active" : "nav-links"}>
                 <li> <Link to="/Home">Home</Link></li>
                 <li> <Link to="/AboutMe">About</Link></li>
