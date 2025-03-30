@@ -1,5 +1,6 @@
 import "../App.css";
 import Footer from "../components/Footer";
+import HeaderPages from "../components/HeaderPages.jsx";
 import NavBarPages from "../components/NavBarPages.jsx";
 
 function AboutMe() {

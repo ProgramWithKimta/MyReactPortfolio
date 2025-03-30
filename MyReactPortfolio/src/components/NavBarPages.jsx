@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavBarPages() {
     const [open, setOpen] = useState(false);
     return (
-        <nav className="navbar navbar-pages">
+        <nav className="navbar-pages">
             <ul className={open? "nav-links active" : "nav-links"}>
                 <li> <Link to="/Home">Home</Link></li>
                 <li> <Link to="/AboutMe">About</Link></li>

@@ -42,7 +42,7 @@ body {
   font-weight: bold;
   font-size: 150px;
   margin-left: 450px;
-  color: rgba(38, 104, 38, 0.747);
+  color: rgba(18, 63, 18, 0.747);
 }
 
 a,
@@ -89,9 +89,9 @@ nav {
 }
 
 .navbar-pages {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
-  color: green;
+  color: black;
   margin-top: 0px;
   display: flex;
   margin-left: 400px;
@@ -161,16 +161,58 @@ nav {
   z-index: 2;
 }
 
-/* .container {
-  max-width: fit-content;
-  height: auto;
-  margin: auto;
-  margin-top: 10vh;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 10px 10px 25px 5px #111;
-  animation: fadeIn 4s ease-out;
-} */
+.navbar-pages a {
+  color: rgba(15, 92, 15, 0.788);
+}
+
+.navbar-pages .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-pages .nav-links li {
+  margin-left: 2rem;
+}
+
+.navbar-pages .nav-links li a:hover {
+  opacity: 0.5;
+}
+
+.navbar-pages .nav-links .btn {
+  margin-left: 2rem;
+}
+
+.navbar-pages .fa-bars,
+.navbar-pages .fa-times {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-pages .nav-links.active {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 3, 3, 0.7);
+  padding: 15vh 0;
+  font-size: 2rem;
+  z-index: 2;
+}
+/* the close class will hide the bars  */
+.navbar-pages .fa-bars.close {
+  display: none;
+}
+
+/* the open class will show the X  */
+
+.navbar-pages .fa-times.open {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  z-index: 2;
+}
 
 h2 {
   font-size: 4rem;
