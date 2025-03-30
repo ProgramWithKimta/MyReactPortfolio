@@ -1,5 +1,7 @@
 function Footer() {
-    return <div>Thank You</div>
+    return <div className="footer">
+        Thank You For Visiting
+        </div>
 }
 
 export default Footer;
