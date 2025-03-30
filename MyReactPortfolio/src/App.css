@@ -239,7 +239,7 @@ h4 {
 
 p {
   color: black;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -263,6 +263,20 @@ input {
   outline: none;
   border: none;
 }
+
+.content-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+.about-me-img {
+  width: 200px;
+  height: auto;
+  border-style: groove;
+  border-color: green;
+  margin-right: 25px;
+  
+}
+
 @keyframes fadeIn {
   0% {
     box-shadow: none;
