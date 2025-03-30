@@ -1,5 +1,5 @@
 function Footer() {
-    return <div className="footer">
+    return <div className="footer footer-pages">
         Thank You For Visiting
         </div>
 }

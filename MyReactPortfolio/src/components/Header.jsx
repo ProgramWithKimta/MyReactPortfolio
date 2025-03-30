@@ -1,7 +1,5 @@
 function Header() {
-    return <header className="header-banner">
-        <h1 className="header-name">Panda's Portfolio</h1>
-        </header>
+    return <header className="header-name header-pages"> Panda's Portfolio </header>
 };
 
 export default Header;

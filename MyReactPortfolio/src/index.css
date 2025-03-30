@@ -2,34 +2,31 @@
   margin: 20px;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: whitesmoke;
+  background-color: transparent;
+  background: url("https://img.freepik.com/premium-vector/cute-cartoon-panda-peeking-around-corner-vector-illustration_657867-61.jpg?w=740") 0 0 no-repeat fixed;
   color: black;
 }
 
 body {
-  background: whitesmoke;
+  background-color: transparent;
   font-family: "Poppins", sans-serif;
   color: black;
   overflow-wrap: break-word;
-}
-
-.header-banner {
-  background: transparent;
-  display: flex;
-  text-align: center;
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-  margin-bottom: 1em;
-  display: table;
+  margin: 0;
+  padding: 0;
 }
 
 .header-name {
   display: flex;
-  justify-content: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  font-size: 200px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 250px;
+  margin-left: 450px;
 }
 
 a,
@@ -68,13 +65,21 @@ a:hover {
   transition: 0.3s ease;
 }
 
+nav {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
 .navbar {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: green;
+  margin-top: 0px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 400px;
+  margin-top: 0px;
 }
 
 .navbar a {
