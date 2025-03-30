@@ -6,7 +6,16 @@ function Resume() {
     return <div className="resume">
         <header className="header-pages">Resume</header>
         <NavBarPages />
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+        <p className="resume-name">Panda Nguyen</p>
+        <p className="professional-sum">New to Software Developing, but joining the industry with a passion for learning and developing full-stack applications. Eager to contribute to innovative projects while expanding my skills in building full-stack solutions.</p>
+        <p className="tech-skills-title">Technical Skills</p>
+        <p className="skills-list">
+            Javascript, HTML, CSS, Postgres, SQL, Express, GitHub, Visual Studio Code</p>
+        <p className="education-title">Education</p>
+        <p className="education">
+            IN PROGRESS: Full Stack Web Development Certificate — UofM EdEx</p>
+        <p className="additional">Additional Info</p>
+        <a href="https://github.com/ProgramWithKimta" className="github-link">Click Here to view my github</a>
         <Footer />
     </div>
 }

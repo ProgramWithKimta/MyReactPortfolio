@@ -286,6 +286,41 @@ input {
   margin-right: 25px;
 }
 
+.resume-name {
+  font-weight: bold;;
+}
+
+.professional-sum {
+  font-size: .75rem;
+}
+
+.tech-skills-title {
+  font-weight: bold;
+}
+
+.skills-list {
+  font-size: .75rem;
+  color: green;
+}
+.education-title {
+  font-weight: bold;
+}
+
+.education {
+  font-size: .75rem;
+  color: green;
+}
+.additional {
+  font-weight: bold;
+}
+
+a.github-link {
+  font-size: .75rem;
+  color: green;
+  margin-right: 1050px;
+}
+
+
 @keyframes fadeIn {
   0% {
     box-shadow: none;
