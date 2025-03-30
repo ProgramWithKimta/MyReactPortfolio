@@ -29,6 +29,24 @@ body {
   margin-left: 450px;
 }
 
+.about-me {
+  background-color: transparent;
+}
+
+.header-pages {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 150px;
+  margin-left: 450px;
+}
+
 a,
 li {
   text-decoration: none;
@@ -157,10 +175,15 @@ h4 {
 
 .footer {
   color: black;
-  justify-content: center;
-  display:flex;
-  align-items: center;
   font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 460px;
 }
 
 p {
@@ -190,25 +213,16 @@ input {
   }
 }
 
-/* header,
-section {
-  position: relative;
-  margin-top: 4rem;
-  margin-left: 6rem;
-  max-width: 700px;
-} */
+@media only screen and (max-width: 1393px) {
+  .header-name {
+      font-size: 8em;
+  }
+}
 
-@media screen and (max-width: 1440px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+@media only screen and (max-width: 1279px) {
   header,
-  section {
-    margin-left: 2rem;
-  }
-  .nav {
-    padding-left: 2rem;
+  nav {
+    font-size: 5em;
   }
   .nav .nav-links {
     display: none;
@@ -219,6 +233,9 @@ section {
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
+  }
+  .footer {
+    font-size: 2em;
   }
   h2 {
     font-size: 3rem;

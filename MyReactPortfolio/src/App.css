@@ -1,27 +1,48 @@
+:root {
+  margin: 20px;
+  padding: 10px;
+  max-width: 1300px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: transparent;
+  background: url("https://img.freepik.com/premium-vector/cute-cartoon-panda-peeking-around-corner-vector-illustration_657867-61.jpg?w=740") 0 0 no-repeat fixed;
+  color: black;
+}
+
 body {
-  background: whitesmoke;
+  background-color: transparent;
   font-family: "Poppins", sans-serif;
   color: black;
   overflow-wrap: break-word;
-}
-
-.header-banner {
-  background: transparent;
-  display: flex;
-  text-align: center;
-  background-size: cover;
-  height: 500px;
-  width: 100%;
-  margin-bottom: 1em;
-  display: table;
+  margin: 0;
+  padding: 0;
 }
 
 .header-name {
   display: flex;
-  justify-content: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  font-size: 200px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 250px;
+  margin-left: 450px;
+}
+
+.header-pages {
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  font-weight: bold;
+  font-size: 150px;
+  margin-left: 450px;
+  color: rgba(38, 104, 38, 0.747);
 }
 
 a,
@@ -60,13 +81,31 @@ a:hover {
   transition: 0.3s ease;
 }
 
-.navbar {
-  font-size: 3rem;
+nav {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.navbar-pages {
+  font-size: 2rem;
   font-weight: bold;
   color: green;
+  margin-top: 0px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 400px;
+  margin-top: 0px;
+}
+
+.navbar {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: green;
+  margin-top: 0px;
+  display: flex;
+  margin-left: 400px;
+  margin-top: 0px;
 }
 
 .navbar a {
@@ -144,15 +183,30 @@ h4 {
 
 .footer {
   color: black;
-  justify-content: center;
-  display:flex;
-  align-items: center;
+  font-weight: bold;
   font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 460px;
 }
 
 p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 460px;
+  line-height: 1.5;
 }
 
 form {
@@ -177,25 +231,16 @@ input {
   }
 }
 
-/* header,
-section {
-  position: relative;
-  margin-top: 4rem;
-  margin-left: 6rem;
-  max-width: 700px;
-} */
+@media only screen and (max-width: 1393px) {
+  .header-name {
+      font-size: 8em;
+  }
+}
 
-@media screen and (max-width: 1440px) {
-  .container {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+@media only screen and (max-width: 1279px) {
   header,
-  section {
-    margin-left: 2rem;
-  }
-  .nav {
-    padding-left: 2rem;
+  nav {
+    font-size: 5em;
   }
   .nav .nav-links {
     display: none;
@@ -206,6 +251,9 @@ section {
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
+  }
+  .footer {
+    font-size: 2em;
   }
   h2 {
     font-size: 3rem;
