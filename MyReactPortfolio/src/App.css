@@ -269,12 +269,21 @@ input {
   align-items: flex-start;
 }
 .about-me-img {
-  width: 200px;
+  width: 350px;
+  height: auto;
+  margin-right: 25px;
+}
+
+.project-panda {
+  display: flex;
+  align-items: flex-start;
+}
+.project-photos {
+  width: 100px;
   height: auto;
   border-style: groove;
   border-color: green;
   margin-right: 25px;
-  
 }
 
 @keyframes fadeIn {
