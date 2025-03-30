@@ -33,6 +33,18 @@ body {
   background-color: transparent;
 }
 
+.projects {
+  background-color: transparent;
+}
+
+.resume {
+  background-color: transparent;
+}
+
+.contact {
+  background-color: transparent;
+}
+
 .header-pages {
   background: transparent;
   display: flex;
