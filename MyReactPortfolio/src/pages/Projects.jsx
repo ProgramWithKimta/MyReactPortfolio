@@ -3,9 +3,10 @@ import Footer from "../components/Footer";
 import NavBarPages from "../components/NavBarPages.jsx";
 
 function Projects() {
-    return <div className="projects">
+    return <> <NavBarPages />
+    <div className="projects"> 
         <header className="header-pages">My Projects</header>
-        <NavBarPages />
+
         <p className="project-panda"><img src="https://img.freepik.com/premium-vector/cute-panda-silhouette_655829-81.jpg?w=740" alt="project-1" className="project-photos" />
         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
@@ -24,8 +25,9 @@ function Projects() {
         <p className="project-panda"><img src="https://img.freepik.com/premium-vector/cute-panda-eating-banboo-icon_1076610-45418.jpg?w=740" alt="project-6" className="project-photos" />
         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
 
-        <Footer />
     </div>
+    <Footer />
+    </>
 }
 
 export default Projects;    

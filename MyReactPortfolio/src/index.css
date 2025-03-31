@@ -1,6 +1,10 @@
 :root {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   padding: 10px;
+  max-width: 1300px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: transparent;
   background: url("https://img.freepik.com/premium-vector/cute-cartoon-panda-peeking-around-corner-vector-illustration_657867-61.jpg?w=740") 0 0 no-repeat fixed;
@@ -29,22 +33,6 @@ body {
   margin-left: 450px;
 }
 
-.about-me {
-  background-color: transparent;
-}
-
-.projects {
-  background-color: transparent;
-}
-
-.resume {
-  background-color: transparent;
-}
-
-.contact {
-  background-color: transparent;
-}
-
 .header-pages {
   background: transparent;
   display: flex;
@@ -57,9 +45,15 @@ body {
   font-weight: bold;
   font-size: 150px;
   margin-left: 450px;
+  color: rgba(18, 63, 18, 0.747);
 }
 
-a,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: green;
+}
+
 li {
   text-decoration: none;
   list-style-type: none;
@@ -100,6 +94,16 @@ nav {
   padding: 0px;
   margin: 0px;
   position: relative;
+}
+
+.navbar-pages {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 0px;
+  display: flex;
+  margin-left: 400px;
+  margin-top: 0px;
 }
 
 .navbar {
@@ -165,16 +169,58 @@ nav {
   z-index: 2;
 }
 
-/* .container {
-  max-width: fit-content;
-  height: auto;
-  margin: auto;
-  margin-top: 10vh;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
-  box-shadow: 10px 10px 25px 5px #111;
-  animation: fadeIn 4s ease-out;
-} */
+.navbar-pages a {
+  color: rgba(15, 92, 15, 0.788);
+}
+
+.navbar-pages .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-pages .nav-links li {
+  margin-left: 2rem;
+}
+
+.navbar-pages .nav-links li a:hover {
+  opacity: 0.5;
+}
+
+.navbar-pages .nav-links .btn {
+  margin-left: 2rem;
+}
+
+.navbar-pages .fa-bars,
+.navbar-pages .fa-times {
+  cursor: pointer;
+  display: none;
+}
+
+.navbar-pages .nav-links.active {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 3, 3, 0.7);
+  padding: 15vh 0;
+  font-size: 2rem;
+  z-index: 2;
+}
+/* the close class will hide the bars  */
+.navbar-pages .fa-bars.close {
+  display: none;
+}
+
+/* the open class will show the X  */
+
+.navbar-pages .fa-times.open {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  z-index: 2;
+}
 
 h2 {
   font-size: 4rem;
@@ -187,6 +233,7 @@ h4 {
 
 .footer {
   color: black;
+  font-weight: bold;
   font-size: 1rem;
   display: flex;
   justify-content: space-between;
@@ -200,7 +247,16 @@ h4 {
 
 p {
   color: black;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  padding: 10px;
+  position: relative;
+  padding-bottom: 0px;
+  margin-left: 460px;
+  line-height: 1.5;
 }
 
 form {
@@ -215,6 +271,64 @@ input {
   outline: none;
   border: none;
 }
+
+.content-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+.about-me-img {
+  width: 350px;
+  height: auto;
+  margin-right: 25px;
+}
+
+.project-panda {
+  display: flex;
+  align-items: flex-start;
+}
+.project-photos {
+  width: 100px;
+  height: auto;
+  border-style: groove;
+  border-color: green;
+  margin-right: 25px;
+}
+
+.resume-name {
+  font-weight: bold;;
+}
+
+.professional-sum {
+  font-size: .75rem;
+}
+
+.tech-skills-title {
+  font-weight: bold;
+}
+
+.skills-list {
+  font-size: .75rem;
+  color: green;
+}
+.education-title {
+  font-weight: bold;
+}
+
+.education {
+  font-size: .75rem;
+  color: green;
+}
+.additional {
+  font-weight: bold;
+}
+
+.github-link {
+  font-size: .75rem;
+  color: green;
+  margin-left: 470px;
+}
+
+
 @keyframes fadeIn {
   0% {
     box-shadow: none;
