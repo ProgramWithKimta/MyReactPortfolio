@@ -298,10 +298,20 @@ label {
   margin-right: 25px;
 }
 
+.project {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
 .project-panda {
   display: flex;
   align-items: flex-start;
 }
+
+.project-intro {
+  font-size: 13px;
+}
+
 .project-photos {
   width: 100px;
   height: auto;
