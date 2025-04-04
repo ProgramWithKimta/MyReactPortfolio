@@ -31,7 +31,7 @@ function Contact() {
 
     return <> <NavBarPages />
     <div className="contact">
-        <header className="header-pages">Contact Me</header>
+        <header className="header-pages contact-title">Contact Me</header>
         <form className="form-table">
 
             <label htmlFor="name">Your Name</label>
