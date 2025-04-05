@@ -48,6 +48,10 @@ body {
   color: rgba(18, 63, 18, 0.747);
 }
 
+.contact-title {
+  font-size: 5rem;
+}
+
 a {
   text-decoration: none;
   list-style-type: none;

@@ -1,7 +1,7 @@
 function Footer() {
-    return <div className="footer footer-pages">
+    return <footer className="footer footer-pages">
         Thank You For Visiting
-        </div>
+        </footer>
 }
 
 export default Footer;
